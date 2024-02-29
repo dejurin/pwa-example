@@ -12,4 +12,4 @@ import { setupPwa } from "@qwikdev/pwa/sw";
 
 setupServiceWorker();
 
-+setupPwa();
+setupPwa();

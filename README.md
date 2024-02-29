@@ -32,10 +32,10 @@ Inside your project, you'll see the following directory structure:
 
 ## Add Integrations and deployment
 
-Use the `bun qwik add` command to add additional integrations. Some examples of integrations includes: Cloudflare, Netlify or Express Server, and the [Static Site Generator (SSG)](https://qwik.builder.io/qwikcity/guides/static-site-generation/).
+Use the `pnpm qwik add` command to add additional integrations. Some examples of integrations includes: Cloudflare, Netlify or Express Server, and the [Static Site Generator (SSG)](https://qwik.builder.io/qwikcity/guides/static-site-generation/).
 
 ```shell
-bun qwik add # or `bun qwik add`
+pnpm qwik add # or `pnpm qwik add`
 ```
 
 ## Development
@@ -43,7 +43,7 @@ bun qwik add # or `bun qwik add`
 Development mode uses [Vite's development server](https://vitejs.dev/). The `dev` command will server-side render (SSR) the output during development.
 
 ```shell
-npm start # or `bun start`
+npm start # or `pnpm start`
 ```
 
 > Note: during dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
@@ -53,7 +53,7 @@ npm start # or `bun start`
 The preview command will create a production build of the client modules, a production build of `src/entry.preview.tsx`, and run a local server. The preview server is only for convenience to preview a production build locally and should not be used as a production server.
 
 ```shell
-bun preview # or `bun preview`
+pnpm preview # or `pnpm preview`
 ```
 
 ## Production
@@ -61,7 +61,13 @@ bun preview # or `bun preview`
 The production build will generate client and server modules by running both client and server build commands. The build command will use Typescript to run a type check on the source code.
 
 ```shell
-bun build # or `bun build`
+pnpm build # or `pnpm build`
+```
+
+## Static Site Generator (Node.js)
+
+```shell
+pnpm build.server
 ```
 
 ## Cloudflare Pages
@@ -69,7 +75,7 @@ bun build # or `bun build`
 Cloudflare's [wrangler](https://github.com/cloudflare/wrangler) CLI can be used to preview a production build locally. To start a local server, run:
 
 ```
-bun serve
+npm run serve
 ```
 
 Then visit [http://localhost:8787/](http://localhost:8787/)
@@ -80,7 +86,7 @@ Then visit [http://localhost:8787/](http://localhost:8787/)
 
 If you don't already have an account, then [create a Cloudflare account here](https://dash.cloudflare.com/sign-up/pages). Next go to your dashboard and follow the [Cloudflare Pages deployment guide](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/).
 
-Within the projects "Settings" for "Build and deployments", the "Build command" should be `bun build`, and the "Build output directory" should be set to `dist`.
+Within the projects "Settings" for "Build and deployments", the "Build command" should be `npm run build`, and the "Build output directory" should be set to `dist`.
 
 ### Function Invocation Routes
 

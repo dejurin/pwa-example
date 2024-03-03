@@ -7,7 +7,9 @@
   "trustedDependencies": [
     "sharp"
   ],
-  "resolutions": { "sharp": "0.32.6" },
+  "resolutions": {
+    "sharp": "0.32.6"
+  },
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",

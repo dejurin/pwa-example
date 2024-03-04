@@ -24,8 +24,8 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.4.5",
-    "@builder.io/qwik-city": "1.4.5",
+    "@builder.io/qwik": "1.5.0",
+    "@builder.io/qwik-city": "1.5.0",
     "@qwikdev/pwa": "0.0.4",
     "@types/eslint": "^8.56.3",
     "@types/node": "^20.11.20",
@@ -33,7 +33,7 @@
     "@typescript-eslint/parser": "^6.21.0",
     "@vite-pwa/assets-generator": "^0.2.4",
     "eslint": "^8.57.0",
-    "eslint-plugin-qwik": "1.4.5",
+    "eslint-plugin-qwik": "1.5.0",
     "fast-glob": "^3.3.2",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3",

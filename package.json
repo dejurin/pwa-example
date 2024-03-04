@@ -2,7 +2,7 @@
   "name": "example",
   "description": "Demo App with Routing built-in (recommended)",
   "engines": {
-    "node": ">=15.0.0"
+    "node": ">=18.0.0"
   },
   "trustedDependencies": [
     "sharp"

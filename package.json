@@ -24,8 +24,8 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "github:BuilderIO/qwik-build#2c7014d476ba9223f1467aabbd8ddd23ff051fbf",
-    "@builder.io/qwik-city": "github:BuilderIO/qwik-city-build#bb1779894afb31d4c5641c989f201b442d170c37",
+    "@builder.io/qwik": "github:BuilderIO/qwik-build#1573c1c6e9cfb1b174660a45824d0586ded64627",
+    "@builder.io/qwik-city": "github:BuilderIO/qwik-city-build#01ce000902a58a7eaf2503a0164f97992e1cf58c",
     "@qwikdev/pwa": "0.0.4",
     "@types/eslint": "^8.56.5",
     "@types/node": "^20.11.24",

@@ -24,9 +24,11 @@ export const useServerTimeLoader = routeLoader$(() => {
 
 export default component$(() => {
   useStyles$(styles);
+  const serverTime = useServerTimeLoader();
   return (
     <>
       <Header />
+      <h1>{serverTime.value.date}</h1>
       <main>
         <Slot />
       </main>
